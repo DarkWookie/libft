@@ -6,16 +6,15 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/21 17:43:04 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/21 17:53:58 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 20:44:50 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_strnew(size_t size)
 {
-	int		i;
+	size_t	i;
 	char	*buf;
 
 	i = 0;

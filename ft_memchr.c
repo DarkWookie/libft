@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/17 02:30:36 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/19 16:06:07 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 19:58:11 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	unsigned char	u;
-	unsigned char	*d;
+	unsigned char	*z;
 
 	u = (unsigned char)c;
 	z = (unsigned char *)s;

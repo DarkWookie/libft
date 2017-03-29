@@ -6,17 +6,16 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/21 17:02:43 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/21 17:53:50 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 19:53:07 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 void	*ft_memalloc(size_t size)
 {
 	char	*buf;
-	int		i;
+	size_t	i;
 
 	i = 0;
 	if (!(buf = (char *)malloc(size)))

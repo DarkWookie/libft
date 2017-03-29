@@ -1,0 +1,2451 @@
+In file included from ft_atoi.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_atoi.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_atoi.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_atoi.c:38:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_atoi.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_atoi.c:38:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_bzero.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_bzero.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_bzero.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_bzero.c:26:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_bzero.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_bzero.c:26:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_isalnum.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_isalnum.c:15:1: error: unknown type name ‘in’
+ in  ft_isalnum(int c)
+ ^
+ft_isalnum.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_isalnum.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_isalnum.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_isalnum.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_isalnum.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_isalpha.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_isalpha.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_isalpha.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_isalpha.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_isalpha.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_isalpha.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_isascii.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_isascii.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_isascii.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_isascii.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_isascii.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_isascii.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_isdigit.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_isdigit.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_isdigit.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_isdigit.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_isdigit.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_isdigit.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_isprint.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_isprint.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_isprint.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_isprint.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_isprint.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_isprint.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_itoa.c:1:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_itoa.c:4:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+ft_itoa.c:12:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+ft_itoa.c:29:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_itoa.c:1:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_itoa.c:50:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_itoa.c:1:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_itoa.c:50:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_lstadd.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_lstadd.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_lstadd.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_lstadd.c:19:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_lstadd.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_lstadd.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_lstdel.c:1:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_lstdel.c:4:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_lstdel.c:1:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_lstdel.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_lstdelone.c:1:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_lstdelone.c:4:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_lstdelone.c:1:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_lstdelone.c:8:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_lstdelone.c:1:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_lstdelone.c:8:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_lstiter.c:1:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_lstiter.c:4:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_lstiter.c:1:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_lstiter.c:10:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_lstiter.c:1:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_lstiter.c:10:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_lstnew.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_lstnew.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_lstnew.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_lstnew.c:35:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_lstnew.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_lstnew.c:35:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_memalloc.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_memalloc.c:17:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_memalloc.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_memalloc.c:27:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_memalloc.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_memalloc.c:27:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_memccpy.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_memccpy.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_memccpy.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_memccpy.c:31:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_memccpy.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_memccpy.c:31:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_memchr.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_memchr.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_memchr.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_memchr.c:29:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_memchr.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_memchr.c:29:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_memcmp.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_memcmp.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_memcmp.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_memcmp.c:30:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_memcmp.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_memcmp.c:30:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_memcpy.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_memcpy.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_memcpy.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_memcpy.c:29:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_memcpy.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_memcpy.c:29:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_memdel.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_memdel.c:17:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_memdel.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_memdel.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_memdel.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_memdel.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_memmove.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_memmove.c:17:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_memmove.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_memmove.c:35:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_memmove.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_memmove.c:35:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_memset.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_memset.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_memset.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_memset.c:29:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_memset.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_memset.c:29:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_putchar.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_putchar.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_putchar.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_putchar.c:18:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_putchar.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_putchar.c:18:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_putchar_fd.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_putchar_fd.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_putchar_fd.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_putchar_fd.c:18:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_putchar_fd.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_putchar_fd.c:18:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_putendl.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_putendl.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_putendl.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_putendl.c:19:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_putendl.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_putendl.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_putendl_fd.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_putendl_fd.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_putendl_fd.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_putendl_fd.c:19:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_putendl_fd.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_putendl_fd.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_putnbr.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_putnbr.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_putnbr.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_putnbr.c:32:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_putnbr.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_putnbr.c:32:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_putnbr_fd.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_putnbr_fd.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_putnbr_fd.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_putnbr_fd.c:32:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_putnbr_fd.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_putnbr_fd.c:32:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_putstr.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_putstr.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_putstr.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_putstr.c:19:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_putstr.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_putstr.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_putstr_fd.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_putstr_fd.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_putstr_fd.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_putstr_fd.c:18:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_putstr_fd.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_putstr_fd.c:18:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strcat.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strcat.c:15:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2)
+                                ^
+In file included from ft_strcat.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strcat.c:31:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strcat.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strcat.c:31:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strchr.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strchr.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strchr.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strchr.c:26:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strchr.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strchr.c:26:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strclr.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strclr.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strclr.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strclr.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strclr.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strclr.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strcmp.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strcmp.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strcmp.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strcmp.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strcmp.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strcmp.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strcpy.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strcpy.c:17:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strcpy.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strcpy.c:27:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strcpy.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strcpy.c:27:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strdel.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strdel.c:17:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strdel.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strdel.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strdel.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strdel.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strequ.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strequ.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strequ.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strequ.c:21:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strequ.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strequ.c:21:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_striter.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_striter.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_striter.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_striter.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_striter.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_striter.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_striteri.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_striteri.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_striteri.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_striteri.c:28:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_striteri.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_striteri.c:28:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strjoin.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strjoin.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strjoin.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strjoin.c:23:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strjoin.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strjoin.c:23:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strlcat.c:1:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strlcat.c:4:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+ft_strlcat.c:14:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strlcat.c:1:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strlcat.c:37:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strlcat.c:1:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strlcat.c:37:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strlen.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strlen.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strlen.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strlen.c:23:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strlen.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strlen.c:23:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strmap.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strmap.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strmap.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strmap.c:33:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strmap.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strmap.c:33:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strmapi.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strmapi.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strmapi.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strmapi.c:32:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strmapi.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strmapi.c:32:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strncat.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strncat.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strncat.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strncat.c:28:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strncat.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strncat.c:28:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strncmp.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strncmp.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strncmp.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strncmp.c:23:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strncmp.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strncmp.c:23:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strncpy.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+In file included from ft_strncpy.c:14:0:
+/usr/include/stdio.h:48:25: error: storage class specified for parameter ‘FILE’
+ typedef struct _IO_FILE FILE;
+                         ^
+/usr/include/stdio.h:64:25: error: storage class specified for parameter ‘__FILE’
+ typedef struct _IO_FILE __FILE;
+                         ^
+In file included from /usr/include/_G_config.h:20:0,
+                 from /usr/include/libio.h:31,
+                 from /usr/include/stdio.h:74,
+                 from ft_strncpy.c:14:
+/usr/include/wchar.h:94:3: error: storage class specified for parameter ‘__mbstate_t’
+ } __mbstate_t;
+   ^
+In file included from /usr/include/libio.h:31:0,
+                 from /usr/include/stdio.h:74,
+                 from ft_strncpy.c:14:
+/usr/include/_G_config.h:24:3: error: expected specifier-qualifier-list before ‘__mbstate_t’
+   __mbstate_t __state;
+   ^
+/usr/include/_G_config.h:25:3: error: storage class specified for parameter ‘_G_fpos_t’
+ } _G_fpos_t;
+   ^
+/usr/include/_G_config.h:29:3: error: expected specifier-qualifier-list before ‘__mbstate_t’
+   __mbstate_t __state;
+   ^
+/usr/include/_G_config.h:30:3: error: storage class specified for parameter ‘_G_fpos64_t’
+ } _G_fpos64_t;
+   ^
+In file included from /usr/include/libio.h:49:0,
+                 from /usr/include/stdio.h:74,
+                 from ft_strncpy.c:14:
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h:40:27: error: storage class specified for parameter ‘__gnuc_va_list’
+ typedef __builtin_va_list __gnuc_va_list;
+                           ^
+In file included from /usr/include/stdio.h:74:0,
+                 from ft_strncpy.c:14:
+/usr/include/libio.h:154:14: error: storage class specified for parameter ‘_IO_lock_t’
+ typedef void _IO_lock_t;
+              ^
+/usr/include/libio.h:284:3: error: expected specifier-qualifier-list before ‘_IO_lock_t’
+   _IO_lock_t *_lock;
+   ^
+/usr/include/libio.h:315:25: error: storage class specified for parameter ‘_IO_FILE’
+ typedef struct _IO_FILE _IO_FILE;
+                         ^
+/usr/include/libio.h:320:29: error: storage class specified for parameter ‘_IO_2_1_stdin_’
+ extern struct _IO_FILE_plus _IO_2_1_stdin_;
+                             ^
+/usr/include/libio.h:321:29: error: storage class specified for parameter ‘_IO_2_1_stdout_’
+ extern struct _IO_FILE_plus _IO_2_1_stdout_;
+                             ^
+/usr/include/libio.h:322:29: error: storage class specified for parameter ‘_IO_2_1_stderr_’
+ extern struct _IO_FILE_plus _IO_2_1_stderr_;
+                             ^
+/usr/include/libio.h:338:19: error: storage class specified for parameter ‘__io_read_fn’
+ typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);
+                   ^
+/usr/include/libio.h:346:19: error: storage class specified for parameter ‘__io_write_fn’
+ typedef __ssize_t __io_write_fn (void *__cookie, const char *__buf,
+                   ^
+/usr/include/libio.h:355:13: error: storage class specified for parameter ‘__io_seek_fn’
+ typedef int __io_seek_fn (void *__cookie, _IO_off64_t *__pos, int __w);
+             ^
+/usr/include/libio.h:358:13: error: storage class specified for parameter ‘__io_close_fn’
+ typedef int __io_close_fn (void *__cookie);
+             ^
+/usr/include/libio.h:390:25: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int __underflow (_IO_FILE *);
+                         ^
+/usr/include/libio.h:391:21: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int __uflow (_IO_FILE *);
+                     ^
+/usr/include/libio.h:392:24: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int __overflow (_IO_FILE *, int);
+                        ^
+/usr/include/libio.h:434:22: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int _IO_getc (_IO_FILE *__fp);
+                      ^
+/usr/include/libio.h:435:31: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int _IO_putc (int __c, _IO_FILE *__fp);
+                               ^
+/usr/include/libio.h:436:22: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int _IO_feof (_IO_FILE *__fp) __THROW;
+                      ^
+/usr/include/libio.h:437:24: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int _IO_ferror (_IO_FILE *__fp) __THROW;
+                        ^
+/usr/include/libio.h:439:30: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int _IO_peekc_locked (_IO_FILE *__fp);
+                              ^
+/usr/include/libio.h:445:28: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern void _IO_flockfile (_IO_FILE *) __THROW;
+                            ^
+/usr/include/libio.h:446:30: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern void _IO_funlockfile (_IO_FILE *) __THROW;
+                              ^
+/usr/include/libio.h:447:30: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int _IO_ftrylockfile (_IO_FILE *) __THROW;
+                              ^
+/usr/include/libio.h:464:25: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int _IO_vfscanf (_IO_FILE * __restrict, const char * __restrict,
+                         ^
+/usr/include/libio.h:465:4: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+    _IO_va_list, int *__restrict);
+    ^
+/usr/include/libio.h:466:26: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern int _IO_vfprintf (_IO_FILE *__restrict, const char *__restrict,
+                          ^
+/usr/include/libio.h:467:5: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+     _IO_va_list);
+     ^
+/usr/include/libio.h:468:30: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern _IO_ssize_t _IO_padn (_IO_FILE *, int, _IO_ssize_t);
+                              ^
+/usr/include/libio.h:469:30: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern _IO_size_t _IO_sgetn (_IO_FILE *, void *, _IO_size_t);
+                              ^
+/usr/include/libio.h:471:33: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern _IO_off64_t _IO_seekoff (_IO_FILE *, _IO_off64_t, int, int);
+                                 ^
+/usr/include/libio.h:472:33: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern _IO_off64_t _IO_seekpos (_IO_FILE *, _IO_off64_t, int);
+                                 ^
+/usr/include/libio.h:474:35: error: expected declaration specifiers or ‘...’ before ‘_IO_FILE’
+ extern void _IO_free_backup_area (_IO_FILE *) __THROW;
+                                   ^
+In file included from ft_strncpy.c:14:0:
+/usr/include/stdio.h:79:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘va_list’
+ typedef _G_va_list va_list;
+                    ^
+/usr/include/stdio.h:110:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fpos_t’
+ typedef _G_fpos_t fpos_t;
+                   ^
+In file included from ft_strncpy.c:14:0:
+/usr/include/stdio.h:168:25: error: storage class specified for parameter ‘stdin’
+ extern struct _IO_FILE *stdin;  /* Standard input stream.  */
+                         ^
+/usr/include/stdio.h:169:25: error: storage class specified for parameter ‘stdout’
+ extern struct _IO_FILE *stdout;  /* Standard output stream.  */
+                         ^
+/usr/include/stdio.h:170:25: error: storage class specified for parameter ‘stderr’
+ extern struct _IO_FILE *stderr;  /* Standard error output stream.  */
+                         ^
+/usr/include/stdio.h:178:12: error: storage class specified for parameter ‘remove’
+ extern int remove (const char *__filename) __THROW;
+            ^
+/usr/include/stdio.h:180:12: error: storage class specified for parameter ‘rename’
+ extern int rename (const char *__old, const char *__new) __THROW;
+            ^
+/usr/include/stdio.h:185:12: error: storage class specified for parameter ‘renameat’
+ extern int renameat (int __oldfd, const char *__old, int __newfd,
+            ^
+/usr/include/stdio.h:195:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ extern FILE *tmpfile (void) __wur;
+             ^
+/usr/include/stdio.h:209:14: error: storage class specified for parameter ‘tmpnam’
+ extern char *tmpnam (char *__s) __THROW __wur;
+              ^
+/usr/include/stdio.h:215:14: error: storage class specified for parameter ‘tmpnam_r’
+ extern char *tmpnam_r (char *__s) __THROW __wur;
+              ^
+/usr/include/stdio.h:227:14: error: storage class specified for parameter ‘tempnam’
+ extern char *tempnam (const char *__dir, const char *__pfx)
+              ^
+/usr/include/stdio.h:237:20: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fclose (FILE *__stream);
+                    ^
+/usr/include/stdio.h:242:20: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fflush (FILE *__stream);
+                    ^
+/usr/include/stdio.h:252:29: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fflush_unlocked (FILE *__stream);
+                             ^
+/usr/include/stdio.h:272:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ extern FILE *fopen (const char *__restrict __filename,
+             ^
+/usr/include/stdio.h:278:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ extern FILE *freopen (const char *__restrict __filename,
+             ^
+/usr/include/stdio.h:306:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ extern FILE *fdopen (int __fd, const char *__modes) __THROW __wur;
+             ^
+/usr/include/stdio.h:319:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
+             ^
+/usr/include/stdio.h:325:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __THROW __wur;
+             ^
+/usr/include/stdio.h:332:21: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) __THROW;
+                     ^
+/usr/include/stdio.h:336:21: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
+                     ^
+/usr/include/stdio.h:343:24: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern void setbuffer (FILE *__restrict __stream, char *__restrict __buf,
+                        ^
+/usr/include/stdio.h:347:25: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern void setlinebuf (FILE *__stream) __THROW;
+                         ^
+/usr/include/stdio.h:356:21: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fprintf (FILE *__restrict __stream,
+                     ^
+/usr/include/stdio.h:362:12: error: storage class specified for parameter ‘printf’
+ extern int printf (const char *__restrict __format, ...);
+            ^
+/usr/include/stdio.h:364:12: error: storage class specified for parameter ‘sprintf’
+ extern int sprintf (char *__restrict __s,
+            ^
+/usr/include/stdio.h:371:22: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int vfprintf (FILE *__restrict __s, const char *__restrict __format,
+                      ^
+In file included from /usr/include/libio.h:31:0,
+                 from /usr/include/stdio.h:74,
+                 from ft_strncpy.c:14:
+/usr/include/stdio.h:372:8: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+        _G_va_list __arg);
+        ^
+/usr/include/stdio.h:377:54: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+ extern int vprintf (const char *__restrict __format, _G_va_list __arg);
+                                                      ^
+/usr/include/stdio.h:380:8: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+        _G_va_list __arg) __THROWNL;
+        ^
+In file included from ft_strncpy.c:14:0:
+/usr/include/stdio.h:386:12: error: storage class specified for parameter ‘snprintf’
+ extern int snprintf (char *__restrict __s, size_t __maxlen,
+            ^
+In file included from /usr/include/libio.h:31:0,
+                 from /usr/include/stdio.h:74,
+                 from ft_strncpy.c:14:
+/usr/include/stdio.h:391:42: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+         const char *__restrict __format, _G_va_list __arg)
+                                          ^
+/usr/include/stdio.h:413:8: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+        _G_va_list __arg)
+        ^
+In file included from ft_strncpy.c:14:0:
+/usr/include/stdio.h:415:12: error: storage class specified for parameter ‘dprintf’
+ extern int dprintf (int __fd, const char *__restrict __fmt, ...)
+            ^
+/usr/include/stdio.h:425:20: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fscanf (FILE *__restrict __stream,
+                    ^
+/usr/include/stdio.h:431:12: error: storage class specified for parameter ‘scanf’
+ extern int scanf (const char *__restrict __format, ...) __wur;
+            ^
+/usr/include/stdio.h:433:12: error: storage class specified for parameter ‘sscanf’
+ extern int sscanf (const char *__restrict __s,
+            ^
+In file included from /usr/include/features.h:374:0,
+                 from /usr/include/string.h:25,
+                 from ./includes/list.h:16,
+                 from ./includes/libft.h:16,
+                 from ft_strncpy.c:13:
+/usr/include/stdio.h:443:12: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int __REDIRECT (fscanf, (FILE *__restrict __stream,
+            ^
+/usr/include/stdio.h:446:12: error: storage class specified for parameter ‘scanf’
+ extern int __REDIRECT (scanf, (const char *__restrict __format, ...),
+            ^
+/usr/include/stdio.h:446:12: error: redefinition of parameter ‘scanf’
+In file included from ft_strncpy.c:14:0:
+/usr/include/stdio.h:431:12: note: previous definition of ‘scanf’ was here
+ extern int scanf (const char *__restrict __format, ...) __wur;
+            ^
+In file included from /usr/include/features.h:374:0,
+                 from /usr/include/string.h:25,
+                 from ./includes/list.h:16,
+                 from ./includes/libft.h:16,
+                 from ft_strncpy.c:13:
+/usr/include/stdio.h:448:12: error: storage class specified for parameter ‘sscanf’
+ extern int __REDIRECT_NTH (sscanf, (const char *__restrict __s,
+            ^
+/usr/include/stdio.h:448:12: error: redefinition of parameter ‘sscanf’
+In file included from ft_strncpy.c:14:0:
+/usr/include/stdio.h:433:12: note: previous definition of ‘sscanf’ was here
+ extern int sscanf (const char *__restrict __s,
+            ^
+/usr/include/stdio.h:471:21: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
+                     ^
+In file included from /usr/include/libio.h:31:0,
+                 from /usr/include/stdio.h:74,
+                 from ft_strncpy.c:14:
+/usr/include/stdio.h:472:7: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+       _G_va_list __arg)
+       ^
+/usr/include/stdio.h:479:53: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+ extern int vscanf (const char *__restrict __format, _G_va_list __arg)
+                                                     ^
+/usr/include/stdio.h:484:40: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+       const char *__restrict __format, _G_va_list __arg)
+                                        ^
+In file included from /usr/include/features.h:374:0,
+                 from /usr/include/string.h:25,
+                 from ./includes/list.h:16,
+                 from ./includes/libft.h:16,
+                 from ft_strncpy.c:13:
+/usr/include/stdio.h:494:12: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int __REDIRECT (vfscanf,
+            ^
+/usr/include/stdio.h:496:37: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+    const char *__restrict __format, _G_va_list __arg),
+                                     ^
+/usr/include/stdio.h:500:5: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+     _G_va_list __arg), __isoc99_vscanf)
+     ^
+/usr/include/stdio.h:505:8: error: expected declaration specifiers or ‘...’ before ‘__gnuc_va_list’
+        _G_va_list __arg), __isoc99_vsscanf)
+        ^
+In file included from ft_strncpy.c:14:0:
+/usr/include/stdio.h:531:19: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fgetc (FILE *__stream);
+                   ^
+/usr/include/stdio.h:532:18: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int getc (FILE *__stream);
+                  ^
+/usr/include/stdio.h:538:12: error: storage class specified for parameter ‘getchar’
+ extern int getchar (void);
+            ^
+/usr/include/stdio.h:550:27: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int getc_unlocked (FILE *__stream);
+                           ^
+/usr/include/stdio.h:551:12: error: storage class specified for parameter ‘getchar_unlocked’
+ extern int getchar_unlocked (void);
+            ^
+/usr/include/stdio.h:561:28: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fgetc_unlocked (FILE *__stream);
+                            ^
+/usr/include/stdio.h:573:28: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fputc (int __c, FILE *__stream);
+                            ^
+/usr/include/stdio.h:574:27: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int putc (int __c, FILE *__stream);
+                           ^
+/usr/include/stdio.h:580:12: error: storage class specified for parameter ‘putchar’
+ extern int putchar (int __c);
+            ^
+/usr/include/stdio.h:594:37: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fputc_unlocked (int __c, FILE *__stream);
+                                     ^
+/usr/include/stdio.h:602:36: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int putc_unlocked (int __c, FILE *__stream);
+                                    ^
+/usr/include/stdio.h:603:12: error: storage class specified for parameter ‘putchar_unlocked’
+ extern int putchar_unlocked (int __c);
+            ^
+/usr/include/stdio.h:610:18: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int getw (FILE *__stream);
+                  ^
+/usr/include/stdio.h:613:27: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int putw (int __w, FILE *__stream);
+                           ^
+/usr/include/stdio.h:622:52: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+                                                    ^
+/usr/include/stdio.h:638:14: error: storage class specified for parameter ‘gets’
+ extern char *gets (char *__s) __wur __attribute_deprecated__;
+              ^
+/usr/include/stdio.h:667:11: error: expected declaration specifiers or ‘...’ before ‘FILE’
+           FILE *__restrict __stream) __wur;
+           ^
+/usr/include/stdio.h:670:9: error: expected declaration specifiers or ‘...’ before ‘FILE’
+         FILE *__restrict __stream) __wur;
+         ^
+/usr/include/stdio.h:680:8: error: expected declaration specifiers or ‘...’ before ‘FILE’
+        FILE *__restrict __stream) __wur;
+        ^
+/usr/include/stdio.h:689:47: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+                                               ^
+/usr/include/stdio.h:695:12: error: storage class specified for parameter ‘puts’
+ extern int puts (const char *__s);
+            ^
+/usr/include/stdio.h:702:29: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int ungetc (int __c, FILE *__stream);
+                             ^
+/usr/include/stdio.h:710:20: error: expected declaration specifiers or ‘...’ before ‘FILE’
+        size_t __n, FILE *__restrict __stream) __wur;
+                    ^
+/usr/include/stdio.h:716:21: error: expected declaration specifiers or ‘...’ before ‘FILE’
+         size_t __n, FILE *__restrict __s);
+                     ^
+/usr/include/stdio.h:738:22: error: expected declaration specifiers or ‘...’ before ‘FILE’
+          size_t __n, FILE *__restrict __stream) __wur;
+                      ^
+/usr/include/stdio.h:740:23: error: expected declaration specifiers or ‘...’ before ‘FILE’
+           size_t __n, FILE *__restrict __stream);
+                       ^
+/usr/include/stdio.h:749:19: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fseek (FILE *__stream, long int __off, int __whence);
+                   ^
+/usr/include/stdio.h:754:24: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern long int ftell (FILE *__stream) __wur;
+                        ^
+/usr/include/stdio.h:759:21: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern void rewind (FILE *__stream);
+                     ^
+/usr/include/stdio.h:773:20: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fseeko (FILE *__stream, __off_t __off, int __whence);
+                    ^
+/usr/include/stdio.h:778:24: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern __off_t ftello (FILE *__stream) __wur;
+                        ^
+/usr/include/stdio.h:798:21: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);
+                     ^
+/usr/include/stdio.h:798:48: error: unknown type name ‘fpos_t’
+ extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);
+                                                ^
+/usr/include/stdio.h:803:21: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fsetpos (FILE *__stream, const fpos_t *__pos);
+                     ^
+/usr/include/stdio.h:803:21: error: unknown type name ‘fpos_t’
+/usr/include/stdio.h:826:23: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern void clearerr (FILE *__stream) __THROW;
+                       ^
+/usr/include/stdio.h:828:18: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int feof (FILE *__stream) __THROW __wur;
+                  ^
+/usr/include/stdio.h:830:20: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int ferror (FILE *__stream) __THROW __wur;
+                    ^
+/usr/include/stdio.h:835:32: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern void clearerr_unlocked (FILE *__stream) __THROW;
+                                ^
+/usr/include/stdio.h:836:27: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int feof_unlocked (FILE *__stream) __THROW __wur;
+                           ^
+/usr/include/stdio.h:837:29: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int ferror_unlocked (FILE *__stream) __THROW __wur;
+                             ^
+/usr/include/stdio.h:846:13: error: storage class specified for parameter ‘perror’
+ extern void perror (const char *__s);
+             ^
+In file included from /usr/include/stdio.h:853:0,
+                 from ft_strncpy.c:14:
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:26:12: error: storage class specified for parameter ‘sys_nerr’
+ extern int sys_nerr;
+            ^
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:27:26: error: storage class specified for parameter ‘sys_errlist’
+ extern const char *const sys_errlist[];
+                          ^
+In file included from ft_strncpy.c:14:0:
+/usr/include/stdio.h:858:20: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fileno (FILE *__stream) __THROW __wur;
+                    ^
+/usr/include/stdio.h:863:29: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int fileno_unlocked (FILE *__stream) __THROW __wur;
+                             ^
+/usr/include/stdio.h:873:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ extern FILE *popen (const char *__command, const char *__modes) __wur;
+             ^
+/usr/include/stdio.h:879:20: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int pclose (FILE *__stream);
+                    ^
+/usr/include/stdio.h:885:14: error: storage class specified for parameter ‘ctermid’
+ extern char *ctermid (char *__s) __THROW;
+              ^
+/usr/include/stdio.h:913:24: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern void flockfile (FILE *__stream) __THROW;
+                        ^
+/usr/include/stdio.h:917:26: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern int ftrylockfile (FILE *__stream) __THROW __wur;
+                          ^
+/usr/include/stdio.h:920:26: error: expected declaration specifiers or ‘...’ before ‘FILE’
+ extern void funlockfile (FILE *__stream) __THROW;
+                          ^
+ft_strncpy.c:17:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strncpy.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strncpy.c:37:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strncpy.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strncpy.c:37:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strnequ.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strnequ.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strnequ.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strnequ.c:19:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strnequ.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strnequ.c:19:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strnew.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strnew.c:17:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strnew.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strnew.c:27:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strnew.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strnew.c:27:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strrchr.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strrchr.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strrchr.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strrchr.c:27:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strrchr.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strrchr.c:27:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strrev.c:1:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strrev.c:4:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+ft_strrev.c:14:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strrev.c:1:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strrev.c:35:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strrev.c:1:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strrev.c:35:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strsplit.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strsplit.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+ft_strsplit.c:32:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+ft_strsplit.c:39:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+ft_strsplit.c:52:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strsplit.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strsplit.c:78:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strsplit.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strsplit.c:78:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strstr.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strstr.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strstr.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strstr.c:37:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strstr.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strstr.c:37:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strsub.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strsub.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strsub.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strsub.c:31:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strsub.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strsub.c:31:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_strtrim.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_strtrim.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_strtrim.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_strtrim.c:37:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_strtrim.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_strtrim.c:37:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_tolower.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_tolower.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_tolower.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_tolower.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_tolower.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_tolower.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+In file included from ft_toupper.c:13:0:
+./includes/libft.h: In function ‘ft_isblank’:
+./includes/libft.h:122:6: error: conflicting types for ‘ft_putstr’
+ void ft_putstr(char *str);
+      ^
+./includes/libft.h:108:6: note: previous definition of ‘ft_putstr’ was here
+ void ft_putstr(char const *s);
+      ^
+./includes/libft.h:124:6: error: redefinition of parameter ‘ft_putstr_fd’
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:116:6: note: previous definition of ‘ft_putstr_fd’ was here
+ void ft_putstr_fd(char const *s, int fd);
+      ^
+./includes/libft.h:126:32: error: expected ‘;’, ‘,’ or ‘)’ before ‘s1’
+ char *ft_strcat(char *restrict s1, const char *restrict s2);
+                                ^
+ft_toupper.c:16:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from ft_toupper.c:13:0:
+./includes/libft.h:66:6: error: old-style parameter declarations in prototyped function definition
+ int  ft_isblank(int c)
+      ^
+ft_toupper.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ft_toupper.c:13:0:
+./includes/libft.h:66:21: error: unused parameter ‘c’ [-Werror=unused-parameter]
+ int  ft_isblank(int c)
+                     ^
+ft_toupper.c:20:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+make: *** [libft.a] Erreur 1

@@ -6,13 +6,13 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/24 19:18:19 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/25 17:07:39 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 20:14:57 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putstr(char *str)
+void	ft_putstr(const char *str)
 {
 	while (*str)
 		write(1, str++, 1);

@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/17 02:31:20 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/17 06:51:49 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 19:54:48 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 	char			*s;
 	unsigned char	u;
 
-	d = (char *)dest;
+	d = (char *)dst;
 	s = (char *)src;
 	u = (unsigned char)c;
 	while (n-- || *s)

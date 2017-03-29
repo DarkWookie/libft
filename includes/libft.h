@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/13 15:17:42 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/03/20 13:35:36 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 19:08:59 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ int		ft_isxdigit(int c);
 
 int		ft_isalnum(int c);
 
-int		ft_isblank(int c)
+int		ft_isblank(int c);
 
 int		ft_isprint(int c);
 
@@ -119,11 +119,9 @@ void	ft_putendl_fd(char const *s, int fd);
 
 void	ft_putnbr_fd(int n, int fd);
 
-void	ft_putstr(char *str);
-
 void	ft_putstr_fd(char const *s, int fd);
 
-char	*ft_strcat(char *restrict s1, const char *restrict s2);
+char	*ft_strcat(char *s1, const char *s2);
 
 int		ft_pow(int	nb, int pow);
 

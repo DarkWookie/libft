@@ -6,13 +6,13 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/17 02:33:24 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/17 06:55:33 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 20:28:54 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcat(char *restrict s1, const char *restrict s2)
+char	*ft_strcat(char *s1, const char *s2)
 {
 	int	i;
 	int	j;

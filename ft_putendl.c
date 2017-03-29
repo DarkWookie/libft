@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/25 20:40:49 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/25 20:43:07 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 20:13:00 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 
 void	ft_putendl(char const *s)
 {
-	write(1, s, ft_strlen(s));
-	write(1, '\n', 1);
+	ft_putstr(s);
+	write(1, "\n", 1);
 }

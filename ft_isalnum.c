@@ -6,13 +6,13 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/19 18:11:34 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/19 18:23:38 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 19:22:37 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-in		ft_isalnum(int c)
+int		ft_isalnum(int c)
 {
 	if (ft_isalpha(c) == 1 || ft_isdigit(c) == 1)
 		return (1);

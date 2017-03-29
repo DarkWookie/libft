@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/24 19:20:16 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/26 19:11:18 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 19:13:01 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,10 @@ char	**ft_strsplit(char const *s, char c)
 		if (!(tab[j] = (char *)malloc(sizeof(char) * (strlen_split + 1))))
 			return (NULL);
 		while (next_word < strlen_split)
-			tab[j][next_word] = s[next_word++];
+		{
+			tab[j][next_word] = s[next_word];
+			next_word++;
+		}
 		tab[j++][next_word] = '\0';
 	}
 	tab[j] = 0;

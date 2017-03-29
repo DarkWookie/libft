@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/18 18:35:34 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/19 16:06:05 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 22:02:08 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,24 +14,25 @@
 
 char	*ft_strstr(const char *big, const char *little)
 {
-	int	i;
-	int	j;
+	char	*bigg;
+	char	*litt;
 
-	j = 0;
-	i = 0;
-	if (little[0] == '\0')
-		return (big);
-	while (big[i])
+	bigg = (char *)big;
+	if (!little)
+		return (bigg);
+	while (*big)
 	{
-		while (big[i] == little[j] && *big && *little)
+		bigg = (char *)big;
+		while (*big && *litt && *big == *litt)
 		{
-			i++;
-			j++;
+			big++;
+			litt++;
 		}
-		i++;
+		if (litt == '\0')
+			return (bigg);
+		else if (*big)
+			return (bigg);
+		big++;
 	}
-	if (j == ft_strlen(little) - 1)
-		return (big[i - j]);
-	else
 		return (NULL);
 }

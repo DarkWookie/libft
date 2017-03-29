@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/24 18:02:16 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/24 18:19:30 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 19:09:37 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 	char	*d;
 
 	i = 0;
+	d = 0;
 	if (ft_strlen(s) < (start + len))
 	{
 		while (s[start] && len--)

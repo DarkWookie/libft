@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/17 02:30:18 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/17 02:30:26 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/29 20:05:49 by nboste           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,6 @@ void	ft_bzero(void *s, size_t n)
 	char	*a;
 
 	a = (char *)s;
-	while (n > 0)
-	{
-		*a = 0;
-		*a++;
-		n--;
-	}
+	while (n--)
+		*a++ = 0;
 }
