@@ -61,6 +61,8 @@ SRCS = ft_atoi.c \
 		ft_strtrim.c \
 		ft_tolower.c \
 		ft_toupper.c \
+		ft_lstmap.c \
+		ft_strnstr.c \
 
 OBJ = $(SRCS:%.c=%.o)
 

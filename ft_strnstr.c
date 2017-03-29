@@ -14,25 +14,24 @@
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	int	i;
-	int	j;
+	char	*bigg;
+	char	*litt;
 
-	i = 0;
-	j = 0;
-	if (little[0] == '\0')
-		return (big);
-	while (big[i])
+	bigg = (char *)big;
+	if (!little)
+		return (bigg);
+	while (*big)
 	{
-		while (big[i] && little[j] && big[i] == little[i] && len)
+		bigg = (char *)big;
+		while (*big && *litt && *big == *litt && len)
 		{
-			i++;
-			j++;
+			big++;
+			litt++;
 			len--;
 		}
-		i++;
+		if (len == 0)
+			return (litt);
+		big++;
 	}
-	if (len == 0)
-		return (big[i - len]);
-	else
-		return (NULL);
+	return (NULL);
 }

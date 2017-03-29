@@ -123,6 +123,6 @@ void	ft_putstr_fd(char const *s, int fd);
 
 char	*ft_strcat(char *s1, const char *s2);
 
-int		ft_pow(int	nb, int pow);
+int		ft_pow(int nb, int pow);
 
 #endif

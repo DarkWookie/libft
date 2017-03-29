@@ -28,8 +28,8 @@ t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 			current = first;
 			while (lst->next)
 			{
-				new = (f)lst;
-				if (!(ft_lstnew(new->content, new->content_size)));
+				new = (f)(lst);
+				if (!(ft_lstnew(new->content, new->content_size)))
 					return (NULL);
 				current = current->next;
 			}
