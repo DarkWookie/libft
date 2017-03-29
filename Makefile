@@ -62,7 +62,7 @@ SRCS = ft_atoi.c \
 		ft_tolower.c \
 		ft_toupper.c \
 
-OBJ = $(SRC:%.c=%.o)
+OBJ = $(SRCS:%.c=%.o)
 
 all: $(NAME)
 
