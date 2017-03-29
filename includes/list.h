@@ -9,6 +9,7 @@
 /*   Updated: 2017/03/13 15:17:49 by rgroscla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #ifndef LIST_H
 # define LIST_H
 
@@ -16,7 +17,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-typedef		struct	s_list
+typedef struct	s_list
 {
 	void		*content;
 	size_t		content_size;
@@ -43,6 +44,6 @@ void	ft_lstadd(t_list **alst, t_list *new);
 
 void	ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 
-t_list	*ft_lstmap(t_list *lst, t_list * (*f)(t_list *elem));
+t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
 #endif

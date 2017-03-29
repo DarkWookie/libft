@@ -26,7 +26,7 @@ char	*ft_strmap(char const *s, char (*f)(char))
 			dup[i] = f(dup[i]);
 			i++;
 		}
-	return (dup);
+		return (dup);
 	}
 	else
 		return (NULL);

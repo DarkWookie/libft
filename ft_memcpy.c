@@ -19,11 +19,11 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 
 	d = (char *)dst;
 	s = (char *)src;
-	while(*src || n > 0)
+	while (*src || n > 0)
 	{
 		*d = *s;
 		n--;
 		*s++;
 	}
-	return(d);
+	return (d);
 }

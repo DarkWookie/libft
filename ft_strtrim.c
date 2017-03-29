@@ -29,7 +29,7 @@ char	*ft_strtrim(char const *s)
 		|| s[end] == '\t')
 		end--;
 	if (!s || !(trim = (char *)malloc(end - start + 1)))
-			return (NULL);
+		return (NULL);
 	while (s[start])
 		trim[i++] = s[start++];
 	trim[i] = '\0';

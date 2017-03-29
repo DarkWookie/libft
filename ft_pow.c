@@ -10,11 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
-int		ft_pow(int	nb, int pow)
+int		ft_pow(int nb, int pow)
 {
-	int		res;
+	int	res;
 
 	res = 1;
 	if (nb == 0)
@@ -25,10 +25,4 @@ int		ft_pow(int	nb, int pow)
 		while (pow--)
 			res = res * nb;
 	return (res);
-}
-
-int		main(void)
-{
-	printf("%d\n", ft_pow(2, 3));
-	return (0);
 }

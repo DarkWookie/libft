@@ -15,6 +15,6 @@
 int		ft_tolower(int c)
 {
 	if (65 <= c <= 90)
-		c+= 32;
+		c += 32;
 	return (c);
 }

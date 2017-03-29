@@ -15,7 +15,7 @@
 void	ft_putnbr_fd(int n, int fd)
 {
 	unsigned int	u;
-	
+
 	if (n < 0)
 	{
 		ft_putchar_fd('-', fd);
@@ -25,7 +25,7 @@ void	ft_putnbr_fd(int n, int fd)
 	if (u >= 10)
 	{
 		ft_putnbr_fd(u / 10, fd);
-		ft_putchar_fd(u %  10 + 48, fd);
+		ft_putchar_fd(u % 10 + 48, fd);
 	}
 	else
 		ft_putchar_fd(u + 48, fd);

@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
+
 int		ft_nbr_words(char const *str, char c)
 {
 	int	i;
@@ -50,32 +50,28 @@ int		ft_strlen_split(char const *str, char c, int next_word)
 
 char	**ft_strsplit(char const *s, char c)
 {
-	int		i;
 	int		j;
 	int		nbr_words;
 	int		next_word;
 	int		strlen_split;
 	char	**tab;
-	
+
 	next_word = 0;
 	j = 0;
-	nbr_words = ft_nbr_words(s,c);
+	nbr_words = ft_nbr_words(s, c);
 	if (!s || (!(tab = (char **)malloc(sizeof(char *) * (nbr_words + 1)))))
 		return (NULL);
 	while (s[next_word])
 	{
-		i = 0;
 		next_word = ft_next_word(s, c, next_word);
 		if (!*s)
-			break;
+			break ;
 		strlen_split = ft_strlen_split(s, c, next_word);
 		if (!(tab[j] = (char *)malloc(sizeof(char) * (strlen_split + 1))))
 			return (NULL);
-		while (i < strlen_split)
-			tab[j][i++] = s[next_word++];
-		tab[j][i] = '\0';
-		j++;
-		next_word++;
+		while (next_word < strlen_split)
+			tab[j][next_word] = s[next_word++];
+		tab[j++][next_word] = '\0';
 	}
 	tab[j] = 0;
 	return (tab);

@@ -1,7 +1,4 @@
-//#include "libft.h"
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include "libft.h"
 
 size_t	ft_strlen(char *str)
 {
@@ -37,16 +34,4 @@ size_t		ft_strlcat(char *dst, char *src, size_t size)
 	if (len_dst < size)
 		return (len_dst + len_src);
 	return (len_src + size);
-}
-
-int		main(void)
-{
-	printf("ft_strlcat = %lu\n", ft_strlcat("123", "45", 2));
-	printf("strlcat = %lu  |  ft_strlcat = %lu\n", strlcat("123", "45", 0),
-		ft_strlcat("123", "45", 0));
-	printf("strlcat = %lu  |  ft = %lu\n", strlcat("123", "456", 1),
-		ft_strlcat("123", "456", 1));
-	printf("strlcat = %lu  |  ft = %lu\n", strlcat("123", "456", 2),
-		ft_strlcat("123", "456", 2));
-	return (0);
 }

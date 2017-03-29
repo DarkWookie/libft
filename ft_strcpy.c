@@ -18,7 +18,7 @@ char	*ft_strcpy(char *dst, const char *src)
 	int	i;
 
 	i = 0;
-	if(!(dst = (char *)malloc(ft_strlen(src) + 1)))
+	if (!(dst = (char *)malloc(ft_strlen(src) + 1)))
 		return (NULL);
 	while (src[i++])
 		dst[i] = src[i];

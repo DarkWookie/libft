@@ -1,6 +1,4 @@
-//#include "libft.h"
-//supprimer stdlib.h et stdio.h
-#include <stdio.h>
+#include "libft.h"
 
 int		ft_strlen(char *str)
 {
@@ -35,15 +33,3 @@ char	*ft_strrev(char *str)
 	str[len + 1] = '\0';
 	return (str);
 }
-/*
-int		main(int ac, char **argv)
-{
-	if (ac == 2)
-	{
-		printf("str = %s\n", argv[1]);
-		printf("strrev = %s\n", ft_strrev(argv[1]));
-	}
-	else
-		printf("1 seul argument please !\n");
-	return (0);
-}*/
