@@ -6,13 +6,13 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/24 19:20:16 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/03/29 19:13:01 by nboste           ###   ########.fr       */
+/*   Updated: 2017/03/30 18:18:13 by rgroscla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_nbr_words(char const *str, char c)
+static int	ft_nbr_words(char const *str, char c)
 {
 	int	i;
 	int	k;
@@ -28,14 +28,14 @@ int		ft_nbr_words(char const *str, char c)
 	return (k);
 }
 
-int		ft_next_word(char const *s, char c, int next_word)
+static int	ft_next_word(char const *s, char c, int next_word)
 {
 	while (s[next_word] && s[next_word] == c)
 		next_word++;
 	return (next_word);
 }
 
-int		ft_strlen_split(char const *str, char c, int next_word)
+static int	ft_strlen_split(char const *str, char c, int next_word)
 {
 	int	i;
 
@@ -48,7 +48,7 @@ int		ft_strlen_split(char const *str, char c, int next_word)
 	return (i);
 }
 
-char	**ft_strsplit(char const *s, char c)
+char		**ft_strsplit(char const *s, char c)
 {
 	int		j;
 	int		nbr_words;
@@ -69,12 +69,9 @@ char	**ft_strsplit(char const *s, char c)
 		strlen_split = ft_strlen_split(s, c, next_word);
 		if (!(tab[j] = (char *)malloc(sizeof(char) * (strlen_split + 1))))
 			return (NULL);
-		while (next_word < strlen_split)
-		{
-			tab[j][next_word] = s[next_word];
-			next_word++;
-		}
-		tab[j++][next_word] = '\0';
+		while (next_word++ < strlen_split)
+			tab[j][next_word - 1] = s[next_word - 1];
+		tab[j++][next_word - 1] = '\0';
 	}
 	tab[j] = 0;
 	return (tab);

@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/03/30 17:56:25 by rgroscla          #+#    #+#             */
+/*   Updated: 2017/03/30 18:00:19 by rgroscla         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-int		ft_isneg(int n)
+static int	ft_isneg(int n)
 {
 	if (n < 0)
 		return (-1);
@@ -8,9 +20,10 @@ int		ft_isneg(int n)
 		return (1);
 }
 
-int		ft_nlen(int n)
+static int	ft_nlen(int n)
 {
 	int		len;
+
 	len = 1;
 	if (n < 0)
 	{
@@ -25,7 +38,7 @@ int		ft_nlen(int n)
 	return (len);
 }
 
-char	*ft_itoa(int n)
+char		*ft_itoa(int n)
 {
 	int		i;
 	int		neg;

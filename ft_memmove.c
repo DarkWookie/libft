@@ -18,17 +18,19 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	char	*s;
 	char	*buffer;
 	int		i;
+	int		j;
 
 	i = 0;
-	buffer = (char *)malloc(len + 1);
+	j = len;
+	if (!(buffer = (char *)malloc(len)))
+		return (NULL);
 	d = (char *)dst;
 	s = (char *)src;
-	while (*s || len--)
-	{
-		buffer[i] = *s++;
-		*d = buffer[i];
-		i++;
-	}
+	while (len--)
+		buffer[i++] = *s++;
+	i = 0;
+	while (j--)
+		*d++ = buffer[i++];
 	free(buffer);
-	return (d);
+	return (dst);
 }

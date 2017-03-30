@@ -125,4 +125,8 @@ char	*ft_strcat(char *s1, const char *s2);
 
 int		ft_pow(int nb, int pow);
 
+char	*ft_strrchr(const char *s, int c);
+
+int		ft_isascii(int c);
+
 #endif

@@ -6,23 +6,13 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/15 23:58:01 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/17 00:47:17 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/30 17:59:16 by rgroscla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
-int		ft_strlen(char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i] != '\0')
-		i++;
-	return (i);
-}
-
-char	*ft_strdup(char *src)
+char	*ft_strdup(const char *src)
 {
 	char	*dest;
 	int		i;

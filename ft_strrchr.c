@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/18 18:28:59 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/03/29 20:47:43 by nboste           ###   ########.fr       */
+/*   Updated: 2017/03/30 18:15:11 by rgroscla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ char	*ft_strrchr(const char *s, int c)
 	char	b;
 	int		s_len;
 
+	s_len = 0;
 	b = (char)c;
 	while (s[s_len] != b)
 		s_len--;

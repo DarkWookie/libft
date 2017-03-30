@@ -6,7 +6,7 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/18 18:35:34 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/03/29 22:02:08 by nboste           ###   ########.fr       */
+/*   Updated: 2017/03/30 18:16:06 by rgroscla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ char	*ft_strstr(const char *big, const char *little)
 	char	*bigg;
 	char	*litt;
 
+	litt = NULL;
 	bigg = (char *)big;
 	if (!little)
 		return (bigg);
@@ -34,5 +35,5 @@ char	*ft_strstr(const char *big, const char *little)
 			return (bigg);
 		big++;
 	}
-		return (NULL);
+	return (NULL);
 }

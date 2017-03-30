@@ -6,12 +6,11 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/21 17:54:15 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/21 17:59:17 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/30 17:57:38 by rgroscla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 void	ft_strdel(char **as)
 {

@@ -6,12 +6,11 @@
 /*   By: rgroscla <rgroscla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/17 02:31:05 by rgroscla          #+#    #+#             */
-/*   Updated: 2017/01/19 16:19:13 by rgroscla         ###   ########.fr       */
+/*   Updated: 2017/03/30 17:57:31 by rgroscla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_strcpy(char *dst, const char *src)
 {
