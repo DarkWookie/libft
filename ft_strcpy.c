@@ -14,13 +14,11 @@
 
 char	*ft_strcpy(char *dst, const char *src)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
-	if (!(dst = (char *)malloc(ft_strlen(src) + 1)))
-		return (NULL);
-	while (src[i++])
-		dst[i] = src[i];
+	while (*src)
+		dst[i++] = *src++;
 	dst[i] = '\0';
 	return (dst);
 }

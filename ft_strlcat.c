@@ -22,18 +22,19 @@ size_t		ft_strlcat(char *dst, const char *src, size_t size)
 	len_src = ft_strlen(src);
 	len_dst = ft_strlen(dst);
 	i = 0;
-	if (!(tmp = (char *)malloc(sizeof(char) * (len_src + len_dst + 1))))
+	tmp = dst;
+	if (!(tmp = (char *)malloc(len_src + len_dst + 1)))
 		return (0);
 	if (size == 0)
 		return (len_src);
-	while (src[i] && (len_dst + i) < (size - 1))
+	else if (size > len_src)
+		return (len_dst + len_src);
+	while (i < size && src[i] != '\0')
 	{
-		tmp[i] = dst[i];
 		tmp[len_dst + i] = src[i];
+		
 		i++;
 	}
 	tmp[len_dst + i] = '\0';
-	if (len_dst < size)
-		return (len_dst + len_src);
 	return (len_src + size);
 }

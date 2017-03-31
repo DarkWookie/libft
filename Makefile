@@ -2,7 +2,7 @@ NAME = libft.a
 
 FLAGS = -Wall -Werror -Wextra
 
-CC = gcc $(FLAGS)
+CC = clang $(FLAGS)
 
 SRCS = ft_atoi.c \
 		ft_bzero.c \
