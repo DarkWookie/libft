@@ -12,27 +12,31 @@
 
 #include "libft.h"
 
-int		ft_atoi(const char *str)
+static int	ft_isvalid(int c)
 {
-	unsigned int	res;
-	int				sign;
+	if (c == ' ' || c == '\t' || c == '\f' ||
+		c == '\r' || c == '\v' || c == '\n')
+		return (1);
+	return (0);
+}
+
+int			ft_atoi(const char *str)
+{
+	int		sign;
+	int		res;
+	int		i;
 
 	sign = 1;
 	res = 0;
-	while (*str == '\v' || *str == '\n' || *str == '\r' ||
-			*str == '\t' || *str == '\f' || *str == ' ')
-		str++;
-	if (*str == '-')
+	i = 0;
+	while (ft_isvalid(str[i]))
+		i++;
+	if (str[i] == '-' || str[i] == '+')
 	{
-		sign = -1;
-		str++;
+		if (str[i++] == '-')
+			sign = -1;
 	}
-	else if (*str == '+')
-		str++;
-	while (*str && '0' <= *str && *str <= '9')
-	{
-		res = res * 10 + (*str - 48);
-		str++;
-	}
-	return ((int)(sign * res));
+	while (str[i] >= '0' && str[i] <= '9')
+		res = res * 10 + (str[i++] - '0');
+	return (res * sign);
 }

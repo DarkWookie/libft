@@ -12,67 +12,66 @@
 
 #include "libft.h"
 
-static int	ft_nbr_words(char const *str, char c)
-{
-	int	i;
-	int	k;
-
-	k = 0;
-	i = 0;
-	while (str[i])
-	{
-		if (str[i] != c && str[i + 1] == c)
-			k++;
-		i++;
-	}
-	return (k);
-}
-
-static int	ft_next_word(char const *s, char c, int next_word)
-{
-	while (s[next_word] && s[next_word] == c)
-		next_word++;
-	return (next_word);
-}
-
-static int	ft_strlen_split(char const *str, char c, int next_word)
+static int	ft_strlen_c(const char *str, char c)
 {
 	int	i;
 
 	i = 0;
-	while (str[next_word] && str[next_word] != c)
-	{
-		next_word++;
+	while (*str && *str++ != c)
 		i++;
-	}
 	return (i);
 }
 
-char		**ft_strsplit(char const *s, char c)
+static int	count_words_c(const char *str, char c)
 {
-	int		j;
-	int		nbr_words;
-	int		next_word;
-	int		strlen_split;
-	char	**tab;
+	int	count;
 
-	next_word = 0;
-	j = 0;
-	nbr_words = ft_nbr_words(s, c);
-	if (!s || (!(tab = (char **)malloc(sizeof(char *) * (nbr_words + 1)))))
-		return (NULL);
-	while (s[next_word])
+	count = 0;
+	if (!str)
+		return (0);
+	while (*str)
 	{
-		next_word = ft_next_word(s, c, next_word);
+		while (*str && *str == c)
+			str++;
+		if (*str != '\0')
+			count++;
+		while (*str && *str != c)
+			str++;
+	}
+	return (count);
+}
+
+static void	move_to_next_word(const char **s, char c)
+{
+	while (**s && **s == c)
+		(*s)++;
+}
+
+char		**ft_strsplit(const char *s, char c)
+{
+	int		nb_words;
+	char	**tab;
+	char	**ret;
+	int		i;
+	int		j;
+
+	nb_words = count_words_c(s, c);
+	if (!s || !(tab = (char **)malloc(sizeof(char*) * (nb_words + 1))))
+		return (NULL);
+	ret = tab;
+	while (*s)
+	{
+		move_to_next_word(&s, c);
 		if (!*s)
 			break ;
-		strlen_split = ft_strlen_split(s, c, next_word);
-		if (!(tab[j] = (char *)malloc(sizeof(char) * (strlen_split + 1))))
+		i = ft_strlen_c(s, c);
+		if (!(*tab = (char *)malloc(sizeof(char) * (i + 1))))
 			return (NULL);
-		while (next_word++ < strlen_split)
-			tab[j][next_word - 1] = s[next_word - 1];
-		tab[j++][next_word - 1] = '\0';
+		j = 0;
+		while (j < i)
+			(*tab)[j++] = *s++;
+		(*tab++)[i] = '\0';
 	}
-	tab[j] = 0;
-	return (tab);
+	*tab = 0;
+	return (ret);
 }

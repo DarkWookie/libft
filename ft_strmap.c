@@ -17,17 +17,14 @@ char	*ft_strmap(char const *s, char (*f)(char))
 	size_t	i;
 	char	*dup;
 
+	if (!s || !f)
+		return (NULL);
 	dup = ft_strdup(s);
 	i = 0;
-	if (s && f)
+	while (dup && dup[i])
 	{
-		while (dup[i])
-		{
-			dup[i] = f(dup[i]);
-			i++;
-		}
-		return (dup);
+		dup[i] = f(dup[i]);
+		i++;
 	}
-	else
-		return (NULL);
+	return (dup);
 }
