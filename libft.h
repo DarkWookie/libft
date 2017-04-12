@@ -13,7 +13,6 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include "list.h"
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
@@ -76,6 +75,8 @@ int     ft_strcmp(const char *s1, const char *s2);
 int     ft_strncmp(const char *s1, const char *s2, size_t n);
 
 int	    ft_atoi(const char *str);
+
+int     ft_factorial(int nb);
 
 int     ft_isalpha(int c);
 
