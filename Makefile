@@ -1,22 +1,22 @@
 .PHONY: all, clean, fclean, re
 
 SRC_NAME = ft_atoi.c \
+		ft_atoiblanks.c \
 		ft_bzero.c \
 		ft_factorial.c \
 		ft_isalnum.c \
 		ft_isalpha.c \
 		ft_isascii.c \
-		ft_isblank.c \
 		ft_isdigit.c \
-		ft_isxdigit.c \
 		ft_isprint.c \
+		ft_isxdigit.c \
 		ft_itoa.c \
 		ft_lstadd.c \
 		ft_lstdel.c \
 		ft_lstdelone.c \
 		ft_lstiter.c \
-		ft_lstnew.c \
 		ft_lstmap.c \
+		ft_lstnew.c \
 		ft_memalloc.c \
 		ft_memccpy.c \
 		ft_memchr.c \
@@ -34,8 +34,6 @@ SRC_NAME = ft_atoi.c \
 		ft_putnbr_fd.c \
 		ft_putstr.c \
 		ft_putstr_fd.c \
-		ft_tolower.c \
-		ft_toupper.c \
 		ft_strcat.c \
 		ft_strchr.c \
 		ft_strclr.c \
@@ -56,19 +54,21 @@ SRC_NAME = ft_atoi.c \
 		ft_strncpy.c \
 		ft_strnequ.c \
 		ft_strnew.c \
+		ft_strnstr.c \
 		ft_strrchr.c \
 		ft_strrev.c \
 		ft_strsplit.c \
 		ft_strstr.c \
 		ft_strsub.c \
 		ft_strtrim.c \
-		ft_strnstr.c \
+		ft_tolower.c \
+		ft_toupper.c \
 
 CPPFLAGS = -I./
 NAME = libft.a
 CC = clang
 CFLAGS = -Wall -Werror -Wextra
-RM = rm -fv
+RM = rm -rf
 
 OBJ_NAME = $(SRC_NAME:.c=.o)
 

@@ -12,10 +12,10 @@
 
 #include "libft.h"
 
-int		ft_isblank(int c)
+int		ft_atoiblanks(int c)
 {
-	if (c == ' ' || c == '\t')
+	if (c == ' ' || c == '\t' || c == '\f' ||
+		c == '\r' || c == '\v' || c == '\n')
 		return (1);
-	else
-		return (0);
+	return (0);
 }
